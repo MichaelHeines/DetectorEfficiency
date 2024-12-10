@@ -1,0 +1,44 @@
+name: default     # Name on environment
+
+
+channels:               # Places where conda should look for packages
+  - conda-forge
+  - pypi
+
+
+dependencies:
+  # Basic requirements
+  - python              # Programming language & Standard library
+  - pip                 # Python package installer (PyPI)
+  - jupyter             # Interactive notebook environment
+
+  # Data processing
+  - numpy               # Numerical computing 
+  - numba               # Just-In-Time compiler for Python & NumPy
+  - scipy               # Scientific computing
+  - scikit-learn        # Simple machine learning algorithms & tooling
+  - pandas              # Data manipulation (tables & time series)
+
+  # Visualization
+  - matplotlib          # Data visualization
+  - seaborn             # Statistical data visualization
+  - corner              # Corner plots
+  - arviz               # Exploratory analysis of Bayesian models
+  - plotly              # Interactive plotting
+  - bokeh               # Interactive visualization
+  - imageio             # Make videos
+
+  # Fitting
+  - statsmodels         # Statistical modeling
+  - lmfit               # Non-linear least squares fitting
+
+  # Bayesian Modelling
+  - pymc                # Probabilistic programming
+  - ultranest           # Nested sampling
+
+  # Other
+  - uncertainties       # Calculations with uncertainties (error propagation)
+  - sympy               # Symbolic mathematics
+  - pyarrow             # Temporary dependency to prevent deprecation warning for pandas<3.0
+
+  
