@@ -1,0 +1,44 @@
+name: det_efficiency     # Name on environment
+
+
+channels:               # Places where conda should look for packages
+  - conda-forge
+  - pypi
+
+
+dependencies:
+  # Basic requirements
+  - python=3.12.4           # Programming language & Standard library
+  - pip=24.0                # Python package installer (PyPI)
+  - jupyter=1.0.0           # Interactive notebook environment
+
+  # Data processing
+  - numpy=1.26.4            # Numerical computing
+  - numba=0.60.0            # Just-In-Time compiler for Python & NumPy
+  - scipy=1.14.0            # Scientific computing
+  - scikit-learn=1.5.0      # Simple machine learning algorithms & tooling
+  - pandas=2.2.2            # Data manipulation (tables & time series)
+
+  # Visualization
+  - matplotlib=3.8.4        # Data visualization
+  - seaborn=0.13.2          # Statistical data visualization
+  - corner=2.2.2            # Corner plots
+  - arviz=0.18.0            # Exploratory analysis of Bayesian models
+  - plotly=5.22.0           # Interactive plotting
+  - bokeh=3.4.2             # Interactive visualization
+  - imageio=2.34.2          # Make videos
+
+  # Fitting
+  - statsmodels=0.14.2      # Statistical modeling
+  - lmfit=1.3.1             # Non-linear least squares fitting
+
+  # Bayesian Modelling
+  - pymc=5.16.1             # Probabilistic programming
+  - ultranest=4.3.2         # Nested sampling
+
+  # Other
+  - uncertainties=3.2.1     # Calculations with uncertainties (error propagation)
+  - sympy=1.12.1            # Symbolic mathematics
+  - pyarrow=16.1.0          # Temporary dependency to prevent deprecation warning for pandas<3.0
+
+  
