@@ -7,12 +7,15 @@ Besides that, two notebooks are included:
 - efficiency_fitting.ipynb provides an easy to use example for basic efficiency fitting
 
 
-Before running, create two directories "images" and "traces" in the same folder if they do not already exist.
+Before running:
+Since pymc and arviz occasionally have some issues during installation, an environment yml file is added. This file can be interpreted by anaconda or miniconda to create an environment in which the code should run.
+
+Create directory "traces" and "images" to drop output files
 
 
 For citing this work, please use [1]
 
-[1] M. Heines et al. In preparation
+[1] M. Heines et al. In preparation (to be updated when publication comes through)
 
 
 
