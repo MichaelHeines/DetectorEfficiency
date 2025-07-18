@@ -14,6 +14,7 @@ Create directory "traces" and "images" to drop output files
 
 
 For citing this work, please use [1]
+[1] Heines, Michael, Joris De Ridder, and Thomas E. Cocolios. "New best practices for efficiency fitting for accurate gamma-ray spectroscopy with semi-conductor detectors." Applied Radiation and Isotopes (2025): 112002.
 
 [1] M. Heines et al. In preparation (to be updated when publication comes through)
 
